@@ -3,10 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <UserSecretsId>16ce2f4a-b833-490d-bbc5-0e069e4b6bc5</UserSecretsId>
+    <RepositoryUrl>https://github.com/visuallogin/VisualLogin.Dingtalk.Robot</RepositoryUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <Copyright>Copyright 2020</Copyright>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Version>1.0.1</Version>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
