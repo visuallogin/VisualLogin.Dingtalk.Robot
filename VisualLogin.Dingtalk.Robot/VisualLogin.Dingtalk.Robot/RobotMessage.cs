@@ -6,7 +6,7 @@ namespace VisualLogin.Dingtalk.Robot
     #region RobotMessage
 
 
-    public class RobotMessageText 
+    public class RobotMessageText :IRobotMessage
     {
         [JsonProperty("text")]
         public RobotMessageExtensionsText Text { get; set; } = new RobotMessageExtensionsText();
@@ -15,13 +15,13 @@ namespace VisualLogin.Dingtalk.Robot
         [JsonProperty("msgtype")] 
         public string MsgType { get; set; } = "text";
     }
-    public class RobotMessageLink 
+    public class RobotMessageLink : IRobotMessage
     {
         [JsonProperty("msgtype")]
         public string MsgType { get; set; } = "link";
         public RobotMessageExtensionsLink Link { get; set; } = new RobotMessageExtensionsLink();
     }
-    public class RobotMessageMarkdown 
+    public class RobotMessageMarkdown : IRobotMessage
     {
         [JsonProperty("msgtype")] 
         public string MsgType { get; set; } = "markdown";
@@ -30,21 +30,21 @@ namespace VisualLogin.Dingtalk.Robot
         [JsonProperty("at")]
         public RobotMessageExtensionsAt At { get; set; } = new RobotMessageExtensionsAt();
     }
-    public class RobotMessageActionCardSingle 
+    public class RobotMessageActionCardSingle : IRobotMessage
     {
         [JsonProperty("msgtype")]
         public string MsgType { get; set; } = "actionCard";
         [JsonProperty("actionCard")]
         public RobotMessageExtensionsActionCardSingle ActionCard { get; set; } = new RobotMessageExtensionsActionCardSingle();
     }
-    public class RobotMessageActionCard 
+    public class RobotMessageActionCard : IRobotMessage
     {
         [JsonProperty("msgtype")]
         public string MsgType { get; set; } = "actionCard";
         [JsonProperty("actionCard")]
         public RobotMessageExtensionsActionCard ActionCard { get; set; } = new RobotMessageExtensionsActionCard();
     }
-    public class RobotMessageFeedCard 
+    public class RobotMessageFeedCard : IRobotMessage
     {
         [JsonProperty("msgtype")]
         public string MsgType { get; set; } = "feedCard";
