@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualLogin.Dingtalk.Robot", "VisualLogin.Dingtalk.Robot\VisualLogin.Dingtalk.Robot.csproj", "{858B47AE-4A13-478C-BAF8-D9FB6DAE3C0A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{C47FB1C3-BBA5-4D79-B74F-5F0C74930B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualLogin.Dingtalk.Robot", "VisualLogin.Dingtalk.Robot\VisualLogin.Dingtalk.Robot.csproj", "{858B47AE-4A13-478C-BAF8-D9FB6DAE3C0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{858B47AE-4A13-478C-BAF8-D9FB6DAE3C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{858B47AE-4A13-478C-BAF8-D9FB6DAE3C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{858B47AE-4A13-478C-BAF8-D9FB6DAE3C0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C47FB1C3-BBA5-4D79-B74F-5F0C74930B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C47FB1C3-BBA5-4D79-B74F-5F0C74930B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C47FB1C3-BBA5-4D79-B74F-5F0C74930B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C47FB1C3-BBA5-4D79-B74F-5F0C74930B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
